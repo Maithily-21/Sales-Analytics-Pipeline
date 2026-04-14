@@ -9,12 +9,12 @@ consumer = KafkaConsumer(
 )
 
 conn = snowflake.connector.connect( 
-    user='MAITHILY', 
-    password='MaithilyPatle2005', 
-    account='vmjyaal-cv32934', 
-    warehouse='COMPUTE_WH', 
-    database='SUPERSTORE_DB', 
-    schema='RAW_DATA' 
+    user='username', 
+    password='pass', 
+    account='account', 
+    warehouse='warehouse', 
+    database='DB', 
+    schema='schema' 
     )
 
 cursor = conn.cursor()
